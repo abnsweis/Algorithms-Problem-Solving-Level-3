@@ -58,9 +58,9 @@ int main() {
   
     PrintMatrexArray(array_numbers, 3, 3);
   
-    cout << "\nThe the following are the sum of each col in the matrix:" << endl;
+    cout << "\nThe the following are the sum of each col in the matrix:\n";
    
-    PrintEachColSum(array_numbers, 3, 3);
+    PrintEachColSum(array_numbers, 3, 3); 
 
 
     return 0;
