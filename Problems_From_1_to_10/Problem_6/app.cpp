@@ -31,7 +31,8 @@ int main(){
     
     
     FillArrayWithOrderdNumbers(array_of_ordered_numbers,3,3);
-    
+    cout << endl<<endl;
+    cout << "The Following is a 3 * 3 Ordered Matrix :" << endl;
     PrintMatrex(array_of_ordered_numbers,3,3);
     return 0;
 };
