@@ -1,5 +1,6 @@
 #include <iostream>
-
+#include<string>
+#include<iomanip>
 
 using namespace std;
 
@@ -55,7 +56,7 @@ int main(){
     int arr_numbers[3][3] ;
     
     FullArrayWithRandomNumbers(arr_numbers,3,3);
-    cout << "the following is a 3*3 random matrix \n";
+    cout << "\n\nThe following is a 3*3 random matrix \n";
     PrintMatrexArray(arr_numbers,3,3);
     
     
