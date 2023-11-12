@@ -1,4 +1,6 @@
 #include <iostream>
+#include<string>
+#include<iomanip>
 using namespace std;
 
 int GetRandomNumber(int from, int to) {
@@ -63,7 +65,7 @@ int main() {
 
 
     FullArrayWithRandomNumbers(array_numbers, 3, 3);
-    cout << "the following is a 3*3 random matrix \n";
+    cout << "\n\nThe following is a 3*3 random matrix \n";
   
     PrintMatrexArray(array_numbers, 3, 3);
   
