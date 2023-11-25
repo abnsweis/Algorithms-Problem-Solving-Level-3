@@ -21,20 +21,6 @@ void FullArrayWithRandomNumbers(int arr_numbers[3][3], short cols, short rows) {
 
 
 
-int GetMatrixSum(int matrix[3][3],int cols,int rows ){
-
-    int matrix_sum = 0 ;
-    
-    for (int i = 0;i< rows  ; i++) {
-    	for (int j = 0; j < cols ; j++) {
-	    	matrix_sum += matrix[i][j];
-    	}
-    }
-    return matrix_sum;
-    
-    
-}
-
 
 bool AreTopicalMatrices(int matrix_1[3][3],int matrix_2[3][3],int cols,int rows){
 	
