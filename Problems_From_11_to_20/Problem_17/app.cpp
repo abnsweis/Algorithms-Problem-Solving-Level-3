@@ -40,7 +40,7 @@ void PrintMatrix(int arr_numbers[3][3], short cols, short rows) {
     }
 }
 
-bool CheckNumberExistsInMatrix(int matrix[3][3],short cols,short rows,int number){
+bool isNumberInMatrix(int matrix[3][3],short cols,short rows,int number){
 	
 	for (int i = 0; i < rows; i++) {
 		for (int j = 0; j < cols; j++) {
@@ -59,7 +59,7 @@ int main() {
 	FullArrayWithRandomNumbers(matrix_1,3,3);
 	PrintMatrix(matrix_1,3,3);
 	
-	if(CheckNumberExistsInMatrix(matrix_1,3,3,search_number)){
+	if(isNumberInMatrix(matrix_1,3,3,search_number)){
 		cout << "Yes : Number "<<search_number<<" Exist in Matrix" << endl;
 	}else{
 		cout << "No : Number "<<search_number<<" Not Exist in Matrix" << endl;
