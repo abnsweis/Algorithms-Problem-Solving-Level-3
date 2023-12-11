@@ -12,12 +12,7 @@ char ReadCharacter(){
 }
 
 
-char InvertCharCase(char character){
-	
-	return character == toupper(character) ? tolower(character) :
-	toupper(character);
-	
-}
+
 
 
 int main(){
