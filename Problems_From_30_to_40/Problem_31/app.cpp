@@ -18,6 +18,7 @@ string ReadString(){
 	
 	return str;
 }
+
 char InvertCharCase(char character){
 	
 	return character == toupper(character) ? tolower(character) :
