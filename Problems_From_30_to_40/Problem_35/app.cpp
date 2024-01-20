@@ -21,14 +21,14 @@ void PrintEachWordInString(string str){
 	while((pos = str.find(delimiter)) != std::string::npos){
 		
 		Sword = str.substr(0,pos);
-		if(Sword != ""){
+		if(Sword != "" ){
 			cout << Sword << endl;	
 		}
 		
 		str.erase(0,pos + delimiter.length());
 	}
 	
-	if(Sword != ""){
+	if(Sword == ""){
 		cout << str << endl;
 	}
 	
