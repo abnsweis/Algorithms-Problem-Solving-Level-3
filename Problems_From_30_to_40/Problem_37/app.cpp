@@ -32,7 +32,7 @@ vector <string> split(string str,string delimiter){
 		
 	}
 	
-	if(word != ""){
+	if(word == ""){
 		vString.push_back(str);
 	}
 	
@@ -50,6 +50,5 @@ int main(){
 	for (string &i : vString) {
 		cout << i << endl;
 	}
-	
 	return 0;
 };
